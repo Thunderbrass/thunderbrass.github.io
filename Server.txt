@@ -1,0 +1,7 @@
+COMMAND PROMPT:
+cd desktop/Website
+python -m http.server
+
+
+ADDRESS BAR OF BROWSER:
+localhost:8000
