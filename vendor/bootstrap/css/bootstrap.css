@@ -4504,7 +4504,7 @@ tbody.collapse.show {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 10rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 576px) {
