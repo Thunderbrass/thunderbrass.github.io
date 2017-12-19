@@ -28,7 +28,7 @@
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
+  --breakpoint-md: 992px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -454,7 +454,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.35rem;
 }
 
 h6, .h6 {
@@ -646,7 +646,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .container {
     max-width: 720px;
   }
@@ -1065,7 +1065,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1807,7 +1807,7 @@ pre code {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -3746,7 +3746,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
         flex-flow: row nowrap;
@@ -3788,13 +3788,13 @@ tbody.collapse.show {
   }
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 992px) {
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
     padding-right: 0;
     padding-left: 0;
   }
-}
+} */
 
 @media (min-width: 992px) {
   .navbar-expand-lg {
@@ -4504,12 +4504,12 @@ tbody.collapse.show {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  border-radius: 10rem;
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
   }
 }
 
@@ -5904,7 +5904,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .d-md-none {
     display: none !important;
   }
@@ -6343,7 +6343,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .flex-md-row {
     -ms-flex-direction: row !important;
         flex-direction: row !important;
@@ -6724,7 +6724,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .float-md-left {
     float: left !important;
   }
@@ -7432,7 +7432,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .m-md-0 {
     margin: 0 !important;
   }
@@ -8220,7 +8220,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .text-md-left {
     text-align: left !important;
   }
